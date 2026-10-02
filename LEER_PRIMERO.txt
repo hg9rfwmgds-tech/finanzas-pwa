@@ -1,0 +1,37 @@
+FINANZAS PERSONALES · PWA v9
+================================
+
+OBJETIVO
+- Un único Excel maestro en iCloud Drive.
+- Excel para iPhone/Mac: introducir o modificar datos.
+- Esta PWA: leer, analizar, visualizar y aprender.
+
+PRIVACIDAD
+- El Excel se selecciona desde Archivos/iCloud y se procesa dentro del navegador.
+- No se suben movimientos, importes, presupuestos ni localidades al hosting.
+- No hay CDN, analítica, geolocalización, mapas, publicidad ni APIs de IA.
+- La PWA no modifica el Excel.
+- El service worker solo guarda el código de la aplicación para poder abrirla sin conexión.
+
+FLUJO EN IPHONE
+1. En Excel: abre el Excel maestro de iCloud.
+2. MOVIMIENTOS > Vista de tarjetas > añade el movimiento.
+3. Sal del archivo y deja que iCloud sincronice.
+4. Abre Finanzas (PWA).
+5. Pulsa “Actualizar Excel”.
+6. Selecciona el mismo archivo desde iCloud Drive.
+7. Comprueba la hora de modificación mostrada por el dashboard.
+
+INSTALACIÓN PWA
+La PWA debe servirse desde HTTPS. El hosting contiene únicamente estos archivos de programa, nunca tu Excel.
+En iPhone: Safari > abrir la URL > Compartir > Añadir a pantalla de inicio.
+
+ARCHIVOS
+- index.html: aplicación principal.
+- manifest.webmanifest: configuración de instalación.
+- sw.js: cache offline del código.
+- icon-*.png: iconos.
+- offline.html: pantalla de respaldo.
+
+NOTA
+El navegador no mantiene un permiso persistente para reescribir tu Excel de iCloud. Por eso el registro se realiza en Excel y el análisis en la PWA.

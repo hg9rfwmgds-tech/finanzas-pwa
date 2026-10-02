@@ -1,0 +1,16 @@
+PRUEBA RECOMENDADA · IPHONE
+===========================
+[ ] Publicar la carpeta por HTTPS.
+[ ] Abrir la URL en Safari.
+[ ] Añadir a pantalla de inicio.
+[ ] Abrir la PWA desde el icono.
+[ ] Seleccionar primero una copia VIRGEN / de prueba.
+[ ] Confirmar que detecta MOVIMIENTOS, AHORRO y PRESUPUESTO.
+[ ] Confirmar que Resumen muestra datos coherentes.
+[ ] Confirmar que Presupuesto muestra estándar/previsión/real.
+[ ] Confirmar que Ciclo de nómina detecta las nóminas.
+[ ] Confirmar que Simulador no modifica ningún dato real.
+[ ] Cerrar la PWA y volver a abrirla en modo avión: la interfaz debe abrir.
+[ ] Con conexión, añadir un movimiento en Excel iPhone y esperar sincronización.
+[ ] Volver a PWA > Actualizar Excel > seleccionar el mismo archivo.
+[ ] Confirmar que el movimiento nuevo aparece.

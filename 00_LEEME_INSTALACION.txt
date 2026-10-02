@@ -1,0 +1,21 @@
+FINANZAS PERSONALES · PWA v9.1
+
+QUÉ ES CADA ARCHIVO
+- index.html: página principal y lógica del dashboard. GitHub Pages lo abre automáticamente.
+- manifest.webmanifest: nombre, icono y comportamiento de la app web instalada.
+- sw.js: permite cachear la app para abrirla posteriormente con poca o ninguna conexión.
+- offline.html: pantalla de respaldo sin conexión.
+- icon-180.png / icon-192.png / icon-512.png / icon-maskable-512.png: iconos para iPhone/PWA.
+- LEER_PRIMERO.txt y CHECKLIST_PRUEBA_IPHONE.txt: documentación.
+
+IMPORTANTE
+- No subas tu Excel personal a GitHub.
+- GitHub debe contener solamente estos archivos de la aplicación.
+- El Excel se selecciona posteriormente desde iCloud Drive y se procesa en el dispositivo.
+
+FLUJO
+1) Descomprime esta carpeta en el Mac.
+2) Publica el contenido de ESTA carpeta en un repositorio GitHub Pages.
+3) Abre la URL HTTPS resultante en Safari del iPhone.
+4) Compartir > Agregar a Inicio > Abrir como app web > Agregar.
+5) Abre Finanzas desde el icono y selecciona el Excel VIRGEN para la primera prueba.
