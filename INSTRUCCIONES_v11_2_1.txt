@@ -1,0 +1,10 @@
+PWA FINANZAS v11.2.1
+
+1. Descomprime el ZIP en el Mac.
+2. Abre index.html en Safari.
+3. Ver demostración > Gastos > Supermercado.
+4. La barra principal debe mostrar una sola marca OSCURA en 78,3%.
+5. Debajo deben verse las dos barras separadas: ritmo temporal y ritmo de gasto.
+6. No subas tu Excel a GitHub. No publiques aún la nueva versión hasta probarla.
+
+No se ha cambiado la lógica de los importes, solo se ha retirado el pin azul de la barra principal.
